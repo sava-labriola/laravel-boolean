@@ -1,0 +1,43 @@
+.jumbotron {
+    height: 450px;
+    .container {
+        margin: auto;
+        width: $container_jumbo_width;
+        .jumbo-left {
+            width: 60%;
+            height: 500px;
+            float: left;
+            h1 {
+                color: #1B3C59;
+                font-size: 70px;
+                font-family: 'Roboto', sans-serif;
+            }
+            p {
+                color: #1B3C59;
+                font-family: 'Roboto', sans-serif;
+                font-size: 25px;
+                font-weight: bold;
+            }
+            ul {
+                padding-left: 20px;
+                li {
+                color: #1B3C59;
+                font-family: 'Roboto', sans-serif;
+                font-size: 20px;
+                }
+            }
+        }
+        .jumbo-right {
+            width: 40%;
+            height: 500px;
+            float: left;
+            .img {
+                width: 380px;
+                height: 380px;
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

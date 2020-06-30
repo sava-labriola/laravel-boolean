@@ -1,0 +1,35 @@
+.logo, .btn-primary {
+    padding: 10px;
+    width: $menu_section_width;
+    height: $header_height;
+    display: inline-block;
+}
+
+.btn-primary button{
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    border: 0;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #73D462;
+    color: white;
+    font-weight: bold;
+}
+
+.logo {
+    img {
+        width: 100%;
+    }
+}
+
+.menu {
+    width: calc(100% - 410px);
+    display: inline-block;
+    ul {
+        width: 100%;
+        li {
+            font-family: 'Roboto', sans-serif;
+            display: inline-block;
+        }
+    }
+}
