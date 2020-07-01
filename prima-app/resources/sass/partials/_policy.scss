@@ -1,0 +1,26 @@
+.policy {
+    padding: 20px;
+    .container {
+        width: 80%;
+        margin: auto;
+        .policy-section {
+            padding-bottom: 10px;
+            h1 {
+                font-size: 30px;
+                font-family: 'Roboto', sans-serif;
+                color: #1B3C59;
+            }
+            h2 {
+                font-size: 25px;
+                font-family: 'Roboto', sans-serif;
+                color: #1B3C59;
+            }
+            p {
+                font-size: 15px;
+                font-family: 'Roboto', sans-serif;
+                color: #1B3C59;
+                font-weight: bold;
+            }
+        }
+    }
+}
