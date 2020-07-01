@@ -469,6 +469,86 @@ template {
   width: 100%;
 }
 
+footer {
+  padding: 50px;
+  height: 250px;
+  background-color: #1B3C59;
+}
+
+footer .container {
+  margin: auto;
+  width: 80%;
+}
+
+footer .container .footer-top {
+  border-bottom: 1px solid white;
+  height: 150px;
+}
+
+footer .container .footer-top .footer-top-left {
+  width: 250px;
+  height: 100%;
+}
+
+footer .container .footer-top .footer-top-left .logo {
+  padding: 0;
+  height: 40%;
+  width: 100%;
+}
+
+footer .container .footer-top .footer-top-left .logo img {
+  width: 100%;
+}
+
+footer .container .footer-top .footer-top-left p {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+
+footer .container .footer-top .footer-top-right {
+  width: 230px;
+  height: 100%;
+}
+
+footer .container .footer-top .footer-top-right ul li {
+  padding-bottom: 5px;
+  list-style-type: none;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+}
+
+footer .container .footer-top .footer-top-right ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+footer .container .footer-bottom {
+  padding: 10px;
+  height: 100px;
+}
+
+footer .container .footer-bottom .social {
+  margin: auto;
+  width: 250px;
+  height: 70%;
+}
+
+footer .container .footer-bottom .social i {
+  font-size: 30px;
+  padding: 10px;
+  color: white;
+}
+
+footer .container .footer-bottom .info {
+  text-align: center;
+}
+
+footer .container .footer-bottom .info p {
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
 .flex-center {
   display: flex;
   justify-content: center;
@@ -478,5 +558,11 @@ template {
 .flex-space-between {
   display: flex;
   justify-content: space-between;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
